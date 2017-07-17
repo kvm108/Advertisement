@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	      rel="stylesheet">
+		  
+		<link rel="stylesheet" type="text/css" href="palette (4).css">
+
+	<style type="text/css">
+		.frm {
+			padding-top: 15px;
+			padding-bottom: px;
+		}
+		  .navbar-brand .navbar-collapse .navbar-nav .nav-item a.nav-link {
+			color: black !important;
+		  }
+		  
+		  .navbar-brand .navbar-collapse .navbar-nav .nav-item a.nav-link:hover {
+			background-color: black !important;
+			color:white !important;
+		  }
+		  
+		  h3 {
+		       font-family:  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;;
+		       font-size: 24px;
+		       font-style: normal;
+		       font-variant: normal;
+		       font-weight: 500;
+		       line-height: 26.4px;
+		       padding: 20px 20px 20px 0px; 
+		     }
+	</style>
+</head>
+<body>
+
+      <nav class="navbar navbar-toggleable-md navbar-light sticky-top" style="border-bottom:1px solid #E8E8E8; background-color: white;">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        
+      <!-- Navbar -->
+        <a class="navbar-brand mb-0 href="#"" href="#"><span><img src="class.png" height="40px" width="108px"></span></a>
+		
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+             <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            
+          </ul>
+		  <ul class="navbar-nav navbar-right">
+			<li>
+			 <button class="btn btn-primary" data-toggle="modal" data-target="#myModal" >
+    Login</button>
+
+			</li>
+		  </ul>
+		  
+		  
+         <!--  <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+			
+		</div>
+		
+      </nav>
+
+
+      
+
+ <div class="container frm" style="padding:0 150px 0 150px;">
+ <h3>Post An Ad</h3>
+ <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Product Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">Enter the entire product name</small>
+  </div>
+  <!-- <div class="form-group">
+    <label for="exampleInputPassword1">Price</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div> -->
+
+  <div class="form-group">
+    <label for="exampleTextarea">Price</label>
+    <textarea class="form-control" id="exampleTextarea" rows="1"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleSelect1">Category</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>Vehicle</option>
+      <option>Rent</option>
+      <option>Cars</option>
+      <option>Bikes</option>
+      <option>Services</option>
+    </select>
+  </div>
+  <!-- <div class="form-group">
+    <label for="exampleSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div> -->
+  <div class="form-group">
+    <label for="exampleTextarea">Product Description</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    <small id="emailHelp" class="form-text text-muted">Enter the detailed product description. </small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+    <small id="fileHelp" class="form-text text-muted">Add more than one photo, this increases the probability of users to buy them!</small>
+  </div>
+  <!-- <fieldset class="form-group">
+    <legend>Radio buttons</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Sell to any buyer in India.
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+        Agree to terms and conditions of Classy.
+      </label>
+    </div>
+    <div class="form-check disabled">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+        Option three is disabled
+      </label>
+    </div>
+  </fieldset> -->
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Agree to terms and conditions of Classy.
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
